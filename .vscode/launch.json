@@ -1,0 +1,50 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Debug (Launch) - Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-AFaire",
+            "request": "launch",
+            "mainClass": "AFaire"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-FenAjoutBouton",
+            "request": "launch",
+            "mainClass": "FenAjoutBouton"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-FirstFenetre",
+            "request": "launch",
+            "mainClass": "FirstFenetre"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-SimplePaint",
+            "request": "launch",
+            "mainClass": "SimplePaint"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-SqueletteV2",
+            "request": "launch",
+            "mainClass": "SqueletteV2"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-StationMeteo",
+            "request": "launch",
+            "mainClass": "StationMeteo"
+        }
+    ]
+}

@@ -1,0 +1,9 @@
+.logoP{
+    margin-right: 5px;
+}
+hr{
+    color: black;
+}
+.nav-item:hover{
+    color:red;
+}

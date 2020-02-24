@@ -1,0 +1,402 @@
+body{
+    margin: 0;
+}
+.wrapper{
+    width: 70%;
+    margin: auto;
+}
+.en-tete{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    box-shadow: black 0px 1px 0px 0px;
+}
+.resize_arsenal_logo{
+    position: absolute;
+    top: 5%;
+    left: 2%;
+    width: 10%;
+}
+.background_img{
+    position: relative;
+    width: 100%;
+    margin-top: 1px;
+    margin-bottom: -4px;
+}
+.arsenal{
+    width: 100%;
+    height: 100%;
+}
+.telephone_numero{
+    background-color: rgb(167,147,89);
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    right: 2%;
+    top: 5%;
+    padding: 5px;
+}
+.telephone_numero p{
+    margin: 0;
+}
+.non-surtaxe{
+    font-size: 0.6em;
+    display: flex;
+    justify-content: center;
+}
+.numero_non-surtaxe{
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+}
+.numero_non-surtaxe p{
+    color: white;
+}
+.numero p{
+    font-weight: bold;
+}
+span{
+    text-decoration: underline;
+}
+.logo_telephone{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.prochainement{
+    background-color: rgba(37,59,87,0.8);
+    position: absolute;
+    left: 50%;
+    bottom: 0.8%;
+}
+.prochainement h3{
+    color: white;
+    padding: 20px;
+    margin: 0;
+    font-weight: bold;
+}
+.lieu h3{
+    color: rgb(7,47,80);
+}
+.lieu{
+    padding-left: 35px;
+}
+.coop_top{
+    display: flex;
+    flex-direction: row;
+}
+.corealisation p{
+    color: rgb(7,47,80);
+    margin: 0;
+    font-size: 0.5em;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+.img_coop{
+    display: flex;
+    flex-direction: column;
+}
+.img_emerige_vinvi_top{
+    width: 60px;
+}
+.vinci_top{
+    display: flex;
+    align-items: center;
+}
+.emerige_top{
+    display: flex;
+    align-items: center;
+}
+.title_arsenal h1{
+    color: white;
+}
+.formulaire p{
+    color: white;
+    font-size: 0.8em;
+}
+.midpart{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+.formulaire{
+    width: 50%;
+    background-color: rgb(167,147,89);
+}
+.maincontent_formulaire{
+    width: 80%;
+    margin: auto;
+}
+.civilite{
+    display: flex;
+    flex-direction: row;
+}
+.civilite_formulaire{
+    padding-left: 10px;
+}
+.bonus_height{
+    height: 50px;
+    padding-left: 15px;
+}
+.bonus_height-mail{
+    height: 50px;
+    padding-left: 15px;
+    margin-top: 5px;
+    margin-bottom: 7px;
+}
+input {
+    box-sizing: border-box;
+}
+input[type=text]{
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+input[type=email]{
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+.bonus_height-right{
+    height: 50px;
+    padding-left: 15px;
+}
+.input_no_margin p{
+    margin: 0;
+}
+input:focus{
+    background-color: rgb(136,147,166);
+}
+::placeholder {
+    color: rgb(16,54,86);
+}
+.votre_projet{
+    display: flex;
+    flex-direction: row;
+}
+.projet{
+    padding-left: 10px;
+}
+.form-double {
+    justify-content: space-between;
+}
+.form-double div{
+    width:49%;
+}
+.formulaire_nom-prenom{
+    display: flex;
+    flex-direction: row;
+}
+.formulaire_ville-telephone{
+    display: flex;
+    flex-direction: row;
+}
+.button-envoyer{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(7,47,80);
+    width: 50%;
+}
+.button-envoyer h3{
+    color: white;
+}
+.button-envoyer:hover{
+    border-radius: 10px;
+}
+.button-envoyer a:hover{
+    color: rgb(136,147,166);
+}
+h3 a{
+    text-decoration: none;
+    color: white;
+}
+.conteneur_button{
+    display: flex;
+    justify-content: flex-end;
+}
+.obligatoire{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+.description_residence{
+    width: 50%;
+}
+.description_residence p{
+    color: rgb(136,147,166);
+}
+.title_residence h1{
+    color: rgb(7,47,80);
+}
+.maincontent_residence{
+    width: 70%;
+    margin: auto;
+}
+.coop{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.emerige-vinci{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.img_emerige_vinvi{
+    display: flex;
+    width: 100px;
+}
+.vinci{
+    display: flex;
+    align-items: center;
+}
+h5{
+    color: rgb(13,53,84);
+    margin-bottom: 0;
+}
+.text p{
+    color: rgb(136,147,166);
+    margin: 0;
+}
+@media all and (max-width: 1680px){
+
+    .wrapper{
+        width: 80%;
+        margin: auto;
+    }
+}
+@media all and (max-width: 1480px){
+
+    .wrapper{
+        width: 90%;
+    }
+}
+@media all and (max-width: 1300px){
+
+    .wrapper{
+        width: 100%;
+    }
+}
+@media all and (max-width: 1180px){
+    .prochainement{
+        font-size: 0.8em;
+    }
+}
+@media all and (max-width: 1024px){
+    .midpart{
+        display: flex;
+        flex-direction: column;
+    }
+    .formulaire{
+        width: 100%;
+    }
+    .description_residence{
+        width: 100%;
+        border-bottom: solid 1px rgb(13,53,84);
+        padding-bottom: 15px;
+    }
+    .formulaire p{
+        font-size: 1em;
+    }
+    .maincontent_formulaire{
+        width: 60%;
+        margin: auto;
+    }
+    .maincontent_residence{
+        width: 60%;
+        margin: auto;
+    }
+    .prochainement{
+        font-size: 0.8em;
+        left: 0;
+    }
+}
+@media all and (max-width: 980px){
+    .prochainement{
+        font-size: 0.7em;
+    }
+    .prochainement h3{
+        padding: 15px;
+    }
+}
+@media all and (max-width: 850px){
+    .prochainement{
+        width: 100%;
+    }
+    .numero_non-surtaxe{
+        display: none;
+    }
+    .logo_telephone{
+        cursor: pointer;
+    }
+}
+@media all and (max-width: 680px){
+    .maincontent_formulaire{
+        width: 70%;
+        margin: auto;
+    }
+    .maincontent_residence{
+        width: 70%;
+        margin: auto;
+    }
+    .prochainement h3{
+        padding: 10px;
+    }
+    .prochainement{
+        font-size: 0.65em;
+    }
+}
+@media all and (max-width: 500px){
+    .form-double div{
+        width:100%;
+    }
+    .formulaire_nom-prenom {
+        display: flex;
+        flex-direction: column;
+    }
+    .formulaire_ville-telephone{
+        display: flex;
+        flex-direction: column;
+    }
+    .bonus_height-right{
+        margin: 0;
+        margin-top: 5px;
+    }
+    .prochainement h3{
+        padding: 7px;
+        font-size: 0.65em;
+    }
+}
+@media all and (max-width: 420px){
+    .maincontent_formulaire{
+        width: 80%;
+        margin: auto;
+    }
+    .maincontent_residence{
+        width: 80%;
+        margin: auto;
+    }
+    .lieu h3{
+        font-size: 0.8em;
+    }
+    .lieu{
+        display: flex;
+        align-items: center;
+        padding-left: 25px;
+    }
+}
+@media all and (max-width: 340px){
+    .lieu h3{
+        font-size: 0.7em;
+    }
+    h1{
+        font-size: 1.4em;
+    }
+    .lieu{
+        padding-left: 15px;
+    }
+}
