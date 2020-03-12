@@ -1,3 +1,28 @@
 .logoP{
     margin-right: 5px;
 }
+@media (min-width: 481px) { 
+    .home{
+        display: none;
+    }
+}
+@media (max-width: 756px) { 
+    .responsive{
+        display: flex;
+        flex-direction: column !important;
+    }
+    img{
+        width: 50%;
+    }
+    .col-lg-4{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+    .logoP{
+        display: none;
+    }
+    .home{
+        display: block;
+    }
+}
